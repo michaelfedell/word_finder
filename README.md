@@ -9,3 +9,12 @@ The implementation can be run via the main.py file.
 ```python
 python main.py
 ```
+
+Primary code is in:
+- `grid.py`: Data structure to maintain grid of letters as a graph with adjacent cells connected by edges.
+- `trie.py`: Data structure to maintain efficient word dictionary.
+- `smart_search.py`: interfaces with a grid and a trie to search for possible words in grid.
+- `main.py`: interface for running code
+
+P.S. the brute force implementation is included in this repo for reference, but is highly inefficient with larger grids
+
